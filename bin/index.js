@@ -12,6 +12,13 @@ if (commands[0] === '-v' || commands[0] === '--version') {
   process.exit(0);
 }
 
+if (commands[0] === '-h' || commands[0] === '--help') {
+  console.log(
+    'FYI: https://github.com/nodejs/node/blob/master/COLLABORATOR_GUIDE.md#landing-pull-requests'
+  );
+  process.exit(0);
+}
+
 fetchMemberInfo()
   .then((data) => main(data))
-  .catch((err) => process.exit(0)); // [TODO] fix
+  .catch((err) => console.error('Can not fetch from nodejs/node/README.md.'));
