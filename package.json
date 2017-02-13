@@ -8,7 +8,10 @@
   "files": [
     "bin"
   ],
-  "keywords": [],
+  "keywords": [
+    "node",
+    "commit"
+  ],
   "bin": {
     "node-comitter": "bin/index.js"
   },
