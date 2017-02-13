@@ -1,4 +1,4 @@
-# node-comitter
+# node-committer
 
 Commit formatter for [node](https://github.com/nodejs/node).
 
@@ -6,12 +6,12 @@ FYI: [COLLABORATOR_GUIDE.md#landing-pull-requests](https://github.com/nodejs/nod
 
 ## Install
 ```
-$ npm install node-comitter
+$ npm install node-committer
 ```
 
 ## Usage
 ```
-$ node-comitter
+$ node-committer
 ```
 
 ## Output

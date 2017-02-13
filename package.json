@@ -1,5 +1,5 @@
 {
-  "name": "node-comitter",
+  "name": "node-committer",
   "main": "bin/index.js",
   "author": "(http://about-hiroppy.com) abouthiroppy <git@about-hiroppy.com>",
   "version": "0.2.0",
@@ -13,11 +13,12 @@
     "commit"
   ],
   "bin": {
-    "node-comitter": "bin/index.js"
+    "node-committer": "bin/index.js"
   },
   "engines": {
     "node": ">=4"
   },
+  "repository": "https://github.com/abouthiroppy/node-committer",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
     "lint": "eslint .",
