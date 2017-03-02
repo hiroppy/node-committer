@@ -2,7 +2,7 @@
   "name": "node-committer",
   "main": "bin/index.js",
   "author": "(http://about-hiroppy.com) abouthiroppy <git@about-hiroppy.com>",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "description": "Commit formatter for node.",
   "files": [
