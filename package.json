@@ -6,7 +6,8 @@
   "license": "MIT",
   "description": "Commit formatter for node.",
   "files": [
-    "bin"
+    "bin",
+    "lib"
   ],
   "keywords": [
     "node",
